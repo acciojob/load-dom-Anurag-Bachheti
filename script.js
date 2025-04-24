@@ -1,3 +1,6 @@
 window.onload = function() {
-  console.log("DOM load success");
+	const overlay = document.createElement("div");
+	const text = document.createTextNode("DOM load Success");
+	overlay.appendChild(text);
+	document.documentElement.appendChild(overlay)
 };
