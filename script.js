@@ -1,3 +1,5 @@
 window.onload = function(){
-	document.getElementById("loader").innerText = "DOM load success";
-}
+	const loader = document.createElement("div");
+	loader.innerText = "DOM load success";
+	document.body.appendChild(loader);
+};
