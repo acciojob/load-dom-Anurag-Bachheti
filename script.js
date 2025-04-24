@@ -1,6 +1,6 @@
 window.onload = function() {
 	const overlay = document.createElement("div");
-	const text = document.createTextNode("DOM load Success");
-	overlay.appendChild(text);
+	overlay.className = "overlay-message";
+	overlay.innerText = "DOM load success"
 	document.documentElement.appendChild(overlay)
 };
