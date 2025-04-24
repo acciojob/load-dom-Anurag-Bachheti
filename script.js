@@ -6,4 +6,4 @@ window.onload = function () {
         overlay.innerText = "DOM load success";
 
         document.body.appendChild(overlay);
-      };
+};
